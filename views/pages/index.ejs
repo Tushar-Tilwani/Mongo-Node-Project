@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="/css/style.css"/>
+		<title>Node JS Fun</title>
+	</head>
+</html>
+<body>
+	<h1>
+	Hello World!!!
+	</h1>
+	
+	<% if(title) 
+	{
+	for(var i=0;i<title.length;i++) 
+	{ %>
+	<%=title[i].text %>
+	<%=title[i].fromUser %>
+	<%=title[i].id %>
+	<% } } %>
+	
+	<div id='clickHere'>
+	Click here to see my ID
+	</div>
+	<script src="/js/script.js" type="application/javascript"></script>
+</body>
+
